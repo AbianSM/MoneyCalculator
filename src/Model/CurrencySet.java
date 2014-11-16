@@ -1,5 +1,8 @@
 package Model;
 
-public class CurrencySet {
+public class CurrencySet { 
+    
+    public HashMap <> 
+    
     
 }
