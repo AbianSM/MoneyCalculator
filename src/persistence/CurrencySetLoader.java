@@ -1,11 +1,15 @@
 package persistence;
 
+import model.Currency;
+import model.CurrencySet;
+
 public class CurrencySetLoader {
 
-    public void load() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public CurrencySet load() {
+        CurrencySet cs = new CurrencySet();
+        cs.add(new Currency("Euro", "€", "EUR"));
+        cs.add(new Currency("Dólar", "$", "USD"));
+        cs.add(new Currency("Libra", "£", "GBP"));
+        return cs;
     }
-    
-    
-    
 }

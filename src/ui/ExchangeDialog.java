@@ -1,14 +1,9 @@
 package ui;
 
-import Model.Exchange;
+import model.Exchange;
 
-public class ExchangeDialog {
-    public final Exchange exchange;
-            
-    public Exchange execute(){
-        
-        //
-        return new Exchange();
-    }
+public interface ExchangeDialog {
+
+    public Exchange getExchange();
     
 }
